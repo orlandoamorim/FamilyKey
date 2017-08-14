@@ -23,6 +23,7 @@ class SumaryViewController: FormViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
+        title = "Sumary"
         setButtons()
         setValues()
     }

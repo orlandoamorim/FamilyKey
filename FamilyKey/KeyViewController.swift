@@ -35,6 +35,7 @@ class KeyViewController: FormViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        title = keyHelper != nil ? keyHelper!.name : "Erro"
         setValues()
     }
     

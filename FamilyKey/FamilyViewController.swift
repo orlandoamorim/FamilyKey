@@ -27,6 +27,7 @@ class FamilyViewController: FormViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        title = "Family"
         setFamily()
         setButtons()
     }
@@ -35,7 +36,7 @@ class FamilyViewController: FormViewController {
         switch familyType {
         case .Add:
             let cancelButton = UIBarButtonItem(barButtonSystemItem: .cancel, target: self, action: #selector(cancelTapped(_:)))
-            navigationItem.leftBarButtonItem = cancelButton
+            //navigationItem.leftBarButtonItem = cancelButton
             
             let addButton = UIBarButtonItem(barButtonSystemItem: .add, target: self, action: #selector(alert))
             navigationItem.rightBarButtonItem = addButton
