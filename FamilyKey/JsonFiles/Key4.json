@@ -1,0 +1,389 @@
+{
+  "name": "Chave 4",
+  "description": "DICOTILEDONES ARQUICLAMIDEOS ACLAMIDEOS",
+  "first_keys": ["flores_em_ciatio", "flores_nunca_em_ciatio"],
+  "keys": [{
+      "id": "flores_em_ciatio",
+      "isFamily": true,
+      "name": "Flores em Ciatio",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      "image": [""],
+      "next_keys": ["Euphorbiaceae"]
+    },
+
+    {
+      "id": "flores_nunca_em_ciatio",
+      "isFamily": false,
+      "name": "Flores nunca em Ciatio",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      "image": [],
+      "next_keys": [
+        "plantas_marinhas",
+        "plantas_nao_marinhas"
+      ]
+    },
+
+    {
+      "id": "plantas_marinhas",
+      "isFamily": true,
+      "name": "Plantas Marinhas",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      "image": [],
+      "next_keys": ["Batidaceae"]
+    },
+
+    {
+      "id": "plantas_nao_marinhas",
+      "isFamily": false,
+      "name": "Plantas não Marinhas",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      "image": [],
+      "next_keys": [
+        "folhas_opostas_ligadas_por_uma_bainha_estipulada",
+        "folhas_opostas_nao_ligadas_por_bainha_ou_alternas_ou_espiraladas",
+        "folhas_verticiladas",
+        "folhas_reduzidas_a_escamas_ou_faltam"
+      ]
+    },
+
+    {
+      "id": "folhas_opostas_ligadas_por_uma_bainha_estipulada",
+      "isFamily": true,
+      "name": "Folhas Opostas Ligadas por uma Bainha Estipulada",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      "image": [],
+      "next_keys": ["Chloranthaceae"]
+    },
+
+    {
+      "id": "folhas_opostas_nao_ligadas_por_bainha_ou_alternas_ou_espiraladas",
+      "isFamily": false,
+      "name": "Folhas Opostas não Ligadas por bainha ou alternas ou estipuladas",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      "image": [],
+      "next_keys": [
+        "flores_unissexuais",
+        "flores_androginas"
+      ]
+    },
+
+    {
+      "id": "folhas_verticiladas",
+      "isFamily": false,
+      "name": "Folhas Verticiladas",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      "image": [],
+      "next_keys": [
+        "fruto_tricoca",
+        "fruto_nao_tricoca"
+      ]
+    },
+
+    {
+      "id": "folhas_reduzidas_a_escamas_ou_faltam",
+      "isFamily": false,
+      "name": "Folhas Reduzidas a Escamas ou Faltam",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      "image": [],
+      "next_keys": [
+        "arvores_ou_arbustos",
+        "nunca_arvores_nem_arbustos"
+      ]
+    },
+
+    {
+      "id": "flores_unissexuais",
+      "isFamily": false,
+      "name": "Flores Unissexuais",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      "image": [],
+      "next_keys": [
+        "cada_flor_masculina_com_uma_bractea",
+        "cada_flor_masculina_com_duas_bracteas",
+        "flor_masculina_sem_bracteas"
+      ]
+    },
+
+    {
+      "id": "flores_androginas",
+      "isFamily": false,
+      "name": "Flores Andróginas",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      "image": [],
+      "next_keys": [
+        "folhas_cordiformes",
+        "folhas_nao_condiformes"
+      ]
+    },
+
+    {
+      "id": "cada_flor_masculina_com_uma_bractea",
+      "isFamily": false,
+      "name": "Cada flor masculina com uma Bractea",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      "image": [],
+      "next_keys": [
+        "folhas_ate_2_cm_de_largura",
+        "folhas_de_mais_de_2_cm_de_largura"
+      ]
+    },
+
+    {
+      "id": "cada_flor_masculina_com_duas_bracteas",
+      "isFamily": true,
+      "name": "Cada flor masculina com duas Bracteas",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      "image": [],
+      "next_keys": ["Euphorbiaceae"]
+    },
+
+    {
+      "id": "flor_masculina_sem_bracteas",
+      "isFamily": false,
+      "name": "Flor masculina sem Bracteas",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      "image": [],
+      "next_keys": [
+        "fruto_tricoca_ou_capsula_ruptil",
+        "fruto_nunca_tricoca_nem_capsula_ruptil"
+      ]
+    },
+
+    {
+      "id": "folhas_ate_2_cm_de_largura",
+      "isFamily": true,
+      "name": "Folhas até 2cm de largura",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      "image": [],
+      "next_keys": ["Salicaceae"]
+    },
+
+    {
+      "id": "folhas_de_mais_de_2_cm_de_largura",
+      "isFamily": false,
+      "name": "Folhas de mais de 2cm de largura",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      "image": [],
+      "next_keys": [
+        "folhas_inteiras",
+        "folhas_denteadas_ou_serradas"
+      ]
+    },
+
+    {
+      "id": "fruto_tricoca_ou_capsula_ruptil",
+      "isFamily": true,
+      "name": "Fruto: tricoca ou capsula ruptil",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      "image": [],
+      "next_keys": ["Euphorbiaceae"]
+    },
+
+    {
+      "id": "fruto_nunca_tricoca_nem_capsula_ruptil",
+      "isFamily": false,
+      "name": "Fruto: nunca tricoca nem capsula ruptil",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      "image": [],
+      "next_keys": [
+        "gomo_foliaceo_com_estipula",
+        "gomo_foliaceo_sem_estipula"
+      ]
+    },
+
+    {
+      "id": "gomo_foliaceo_com_estipula",
+      "isFamily": false,
+      "name": "Gomo foliaceo com estipula",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      "image": [],
+      "next_keys": [
+        "fruto_carnoso",
+        "fruto_nao_carnoso"
+      ]
+    },
+
+    {
+      "id": "gomo_foliaceo_sem_estipula",
+      "isFamily": false,
+      "name": "Gomo foliaceo sem estipula",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      "image": [],
+      "next_keys": [
+        "flores_em_espiga",
+        "flores_nunca_em_espiga"
+      ]
+    },
+
+    {
+      "id": "flores_em_espiga",
+      "isFamily": true,
+      "name": "FLores em espiga",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      "image": [],
+      "next_keys": ["Piperaceae"]
+    },
+
+    {
+      "id": "flores_nunca_em_espiga",
+      "isFamily": false,
+      "name": "Flores nunca em espiga",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      "image": [],
+      "next_keys": [
+        "um_estigma",
+        "dois_estigmas"
+      ]
+    },
+
+    {
+      "id": "um_estigma",
+      "isFamily": true,
+      "name": "Um estigma",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      "image": [],
+      "next_keys": ["Urticaceae"]
+    },
+
+    {
+      "id": "dois_estigmas",
+      "isFamily": false,
+      "name": "Dois estigmas",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      "image": [],
+      "next_keys": [
+        "flor_masculina_de_um_so_estame",
+        "flor_masculina_de_mais_de_um_estame"
+      ]
+    },
+
+    {
+      "id": "arvores_ou_arbustos",
+      "isFamily": true,
+      "name": "Arvores ou Arbustos",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      "image": [],
+      "next_keys": ["Casuarinaceae"]
+    },
+
+    {
+      "id": "nunca_arvores_nem_arbustos",
+      "isFamily": false,
+      "name": "Nunca arvores nem arbustos",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      "image": [],
+      "next_keys": [
+        "flores_agrupadas_plantas_parasitas_em_raizes",
+        "flores_isoladas_imersas_nos_ramos_da_planta_parasitada"
+      ]
+    },
+
+    {
+      "id": "flores_agrupadas_plantas_parasitas_em_raizes",
+      "isFamily": true,
+      "name": "Flores agrupadas: plantas parasitas em raízes",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      "image": [],
+      "next_keys": ["Bulanophoraceae"]
+    },
+
+    {
+      "id": "flores_isoladas_imersas_nos_ramos_da_planta_parasitada",
+      "isFamily": true,
+      "name": "Flores isaladas, imersas nos ramos da planta parasitada",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      "image": [],
+      "next_keys": ["Rafflesiaceae"]
+    },
+
+    {
+      "id": "fruto_tricoca",
+      "isFamily": true,
+      "name": "Fruto: tricoca",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      "image": [],
+      "next_keys": ["Euphorbiaceae"]
+    },
+
+    {
+      "id": "fruto_nao_tricoca",
+      "isFamily": true,
+      "name": "Fruto não tricoca",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      "image": [],
+      "next_keys": ["Piperaceae"]
+    },
+
+    {
+      "id": "flor_masculina_de_um_so_estame",
+      "isFamily": true,
+      "name": "Flor masculina de um só estame",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      "image": [],
+      "next_keys": ["Callitrichaceae"]
+    },
+
+    {
+      "id": "flor_masculina_de_mais_de_um_estame",
+      "isFamily": true,
+      "name": "Flor masculina de mais de um estame",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      "image": [],
+      "next_keys": ["Ulmaceae"]
+    },
+
+    {
+      "id": "fruto_carnoso",
+      "isFamily": true,
+      "name": "Fruto carnoso",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      "image": [],
+      "next_keys": ["Moraceae"]
+    },
+
+    {
+      "id": "fruto_nao_carnoso",
+      "isFamily": true,
+      "name": "Fruto não carnoso",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      "image": [],
+      "next_keys": ["Plantanaceae"]
+    },
+
+    {
+      "id": "folhas_inteiras",
+      "isFamily": true,
+      "name": "Folhas inteiras",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      "image": [],
+      "next_keys": ["Lacistemaceae"]
+    },
+
+    {
+      "id": "folhas_denteadas_ou_serradas",
+      "isFamily": true,
+      "name": "Folhas denteadas ou serradas",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      "image": [],
+      "next_keys": ["Betulaceae"]
+    },
+
+    {
+      "id": "folhas_cordiformes",
+      "isFamily": true,
+      "name": "Folhas condiformes",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      "image": [],
+      "next_keys": ["Saururaceae"]
+    },
+
+    {
+      "id": "folhas_nao_cordiformes",
+      "isFamily": true,
+      "name": "Folhas não condiformes",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      "image": [],
+      "next_keys": ["Lacistemaceae"]
+    }
+  ]
+}

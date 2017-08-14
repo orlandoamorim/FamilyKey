@@ -1,0 +1,97 @@
+{
+  "Euphorbiaceae" : {
+    "name" : "Euphorbiaceae",
+    "desc" : "Euphorbiaceae/euforbiáceas é uma família botânica representada por 290 gêneros e cerca de 7500 espécies. Podem se apresentar como arbóreas, arbustivas, subarbustos e ervas com folhas alternas simples ou compostas estipuladas. \n\nFonte: Wikipédia",
+      "image": ["Euphorbiaceae-1", "Euphorbiaceae-2"]
+  },
+
+  "Batidaceae" : {
+    "name" : "Batidaceae",
+    "desc" : "",
+    "image": []
+  },
+
+  "Chloranthaceae" : {
+    "name" : "Chloranthaceae",
+    "desc" : "",
+    "image": []
+  },
+
+  "Salicaceae" : {
+    "name" : "Salicaceae",
+    "desc" : "",
+    "image": []
+  },
+
+  "Piperaceae" : {
+    "name" : "Piperaceae",
+    "desc" : "",
+    "image": []
+  },
+
+  "Urticaceae" : {
+    "name" : "Urticaceae",
+    "desc" : "",
+    "image": []
+  },
+
+  "Casuarinaceae" : {
+    "name" : "Casuarinaceae",
+    "desc" : "",
+    "image": []
+  },
+
+  "Bulanophoraceae" : {
+    "name" : "Bulanophoraceae",
+    "desc" : "",
+    "image": []
+  },
+
+  "Rafflesiaceae" : {
+    "name" : "Rafflesiaceae",
+    "desc" : "",
+    "image": []
+  },
+
+  "Callitrichaceae" : {
+    "name" : "Callitrichaceae",
+    "desc" : "",
+    "image": []
+  },
+
+  "Ulmaceae" : {
+    "name" : "Ulmaceae",
+    "desc" : "",
+    "image": []
+  },
+
+  "Moraceae" : {
+    "name" : "Moraceae",
+    "desc" : "",
+    "image": []
+  },
+
+  "Plantanaceae" : {
+    "name" : "",
+    "desc" : "",
+    "image": []
+  },
+
+  "Lacistemaceae" : {
+    "name" : "Lacistemaceae",
+    "desc" : "",
+    "image": []
+  },
+
+  "Betulaceae" : {
+    "name" : "",
+    "desc" : "",
+    "image": []
+  },
+
+  "Saururaceae" : {
+    "name" : "Saururaceae",
+    "desc" : "",
+    "image": []
+  }
+}
