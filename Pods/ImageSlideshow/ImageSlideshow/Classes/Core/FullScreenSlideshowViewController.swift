@@ -68,6 +68,10 @@ open class FullScreenSlideshowViewController: UIViewController {
         view.addSubview(closeButton)
     }
 
+    override open func prefersHomeIndicatorAutoHidden() -> Bool {
+        return true
+    }
+
     override open var prefersStatusBarHidden: Bool {
         return true
     }
@@ -85,7 +89,7 @@ open class FullScreenSlideshowViewController: UIViewController {
         slideshow.frame = view.frame
     }
 
-    func close() {
+    @objc func close() {
         // if pageSelected closure set, send call it with current page
         if let pageSelected = pageSelected {
             pageSelected(slideshow.currentPage)
